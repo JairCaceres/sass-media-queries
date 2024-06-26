@@ -1,0 +1,45 @@
+html, body{
+    font-family: var(--font-roboto);
+    background-color: #f9f9f9;
+
+    h1{
+        color: var(--principal-color);
+
+    }
+
+    p{
+        color: var(--font-color);
+
+        span{
+            color: var(--secondary-color);
+            
+            &:hover{
+                color: var(--principal-color);
+            }
+
+        }
+    }
+    
+
+    .container{
+        padding: 5%;
+        display: flex;
+        margin: 3% auto;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        width: 70%;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 12px;
+
+        .textContainer{
+            width: 40%;
+        }
+        .imgContainer{
+            max-width: 50%;
+           img{
+            width: 100%;
+           }
+        }
+    }
+}

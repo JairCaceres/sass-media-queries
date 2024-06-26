@@ -1,0 +1,15 @@
+@media screen and (max-width: 992px) {
+    .container{
+        flex-direction: column;
+
+        .textContainer{
+            width: 100% !important;
+        }
+        .imgContainer{
+            max-width: 100% !important;
+           img{
+            width: 100%;
+           }
+        }
+    }
+}
